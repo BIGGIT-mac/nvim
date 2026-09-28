@@ -1,5 +1,4 @@
 vim.g.netrw_banner = 0
-vim.g.have_nerd_font = 0
 
 vim.opt.nu = true
 vim.opt.rnu = true
@@ -31,7 +30,6 @@ vim.opt.clipboard:append("unnamedplus")
 vim.opt.isfname:append("@-@")
 vim.opt.scrolloff = 8
 
-vim.opt.background = "dark"
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 

@@ -9,15 +9,17 @@ return {
             }
         }
     },
+
     {
         "saghen/blink.cmp",
         dependencies = { "rafamadriz/friendly-snippets" },
         version = "1.*",
         opts = require("config.blink")
     },
+
     {
         "windwp/nvim-autopairs",
         event = "InsertEnter",
         opts = {}
-    }
+    },
 }

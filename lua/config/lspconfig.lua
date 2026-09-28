@@ -6,13 +6,18 @@ local servers = {
 	"yamlls",
 	"lua_ls",
 	"ts_ls",
-	"taplo"
+	"taplo",
+	"bashls"
+}
+
+local tools = {
+	"shellcheck"
 }
 
 require("mason").setup()
-require("mason-lspconfig").setup({
-	ensure_installed = servers,
-	automatic_installation = true
+require("mason-lspconfig").setup()
+require("mason-tool-installer").setup({
+	ensure_installed = vim.list_extend(vim.deepcopy(servers), tools)
 })
 
 local configs = require("config.lsp")
