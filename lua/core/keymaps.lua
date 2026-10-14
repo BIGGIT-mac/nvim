@@ -18,9 +18,9 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>e", function()
-	if vim.bo.filetype == "netrw" then
-		vim.cmd("bd")
+	if vim.bo.filetype == "oil" then
+		require("oil").close()
 	else
-		vim.cmd("Ex")
+		require("oil").open()
 	end
 end)

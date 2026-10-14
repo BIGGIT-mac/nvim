@@ -1,5 +1,3 @@
-vim.g.netrw_banner = 0
-
 vim.opt.nu = true
 vim.opt.rnu = true
 vim.opt.showmode = false
