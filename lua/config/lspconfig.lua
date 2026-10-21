@@ -1,12 +1,10 @@
 local servers = {
 	"html",
 	"cssls",
-	"jsonls",
 	"pyright",
-	"yamlls",
 	"lua_ls",
-	"ts_ls",
 	"taplo",
+	"clangd",
 	"bashls"
 }
 
