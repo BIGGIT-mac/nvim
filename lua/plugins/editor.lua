@@ -22,4 +22,8 @@ return {
         event = "InsertEnter",
         opts = {}
     },
+
+    {  "easymotion/vim-easymotion"  },
+--  {  "haya14busa/vim-easyoperator-line" },
+    {  "haya14busa/incsearch.vim" }
 }

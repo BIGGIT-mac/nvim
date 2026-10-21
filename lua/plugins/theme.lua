@@ -7,5 +7,11 @@ return {
             vim.g.adwaita_transparent = true
             vim.cmd.colorscheme("adwaita")
         end,
+    },
+    {
+        "EdenEast/nightfox.nvim",
+        config = function()
+          require("config.nightfox")
+        end,
     }
 }
